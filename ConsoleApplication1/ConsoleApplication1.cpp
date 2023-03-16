@@ -24,6 +24,15 @@ cout << "====================" << endl;
 for (int i = 1); i < n; i++) {
 	cout << "Data ke-" << (i + 1) << ": ";
 	cin >> a[i];
-
-
+}
+void bubbleSortArray() {
+	for (int i = 1); i < n; i++){
+		for (int j = 0; < n - i; j++) {
+			if (a[j] > a[j + 1]) {
+				int temp + a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = temp;
+			}
+		}
+	}
 }
