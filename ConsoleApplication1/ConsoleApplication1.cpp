@@ -40,7 +40,7 @@ void bubbleSortArray() {
 void unsorted() {
 	cout << endl;
 	cout << "=================================" << endl;
-	cout << "Elemen array yang telah tersusun" << endl;
+	cout << "Elemen array yang belum tersusun" << endl;
 	cout << "=================================" << endl;
 	for (int j = 0; j < n; j++) {
 		cout << a[j] << endl;
